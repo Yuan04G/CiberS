@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-blackboard-chalkboard-betao_1258-70493.jpg);
+    background-size: 2200px;
+    backdrop-filter: blur(40px);
+}
+
+header {
+    background-color: rgba(255, 166, 0, 0);
+    padding: 25px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-shadow: 2px 2px 12px black;
+}
+
+#menu {
+   list-style: none;
+   background-color: rgb(255, 255, 255);
+   margin: 0;
+   font-family: 'Kanit', sans-serif;
+   box-shadow: 2px 2px 16px black;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+#menu li a:hover {
+    background-color: grey;
+    padding: 5px 50px 5px 50px;
+    margin: 0;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    margin-top: 200px;
+    font-family: 'Dhurjati', sans-serif;
+    color: white;
+    box-shadow: 20px 20px 20px 20px rgb(36, 36, 36);
+    text-align: center;
+    padding: 40px;
+    font-family: 'Karla', sans-serif;
+}
+
+article {
+    color: white;
+    margin: 50px;
+    margin-right: 700px;
+    text-align: justify;
+    font-size: 20px;
+    image-rendering: ;
+   
+}
+
+.titulo {
+    font-size: 80px;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.texto {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+img {
+    height: 550px;
+    width: 550px;
+    margin-left: 820px;
+    padding-bottom: 0px;
+    margin-top: -500px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 26px;
+    color: black;
+}
+
+.botao {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: solid 2px;
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    margin-left: 50px;
+    backdrop-filter: blur(60px);
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.505);
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+.botao:hover {
+    background-color:floralwhite;
+    color: black;
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px;
+}
